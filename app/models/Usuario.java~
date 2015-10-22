@@ -14,7 +14,7 @@ import play.data.validation.Required;
 import play.db.jpa.Model;
 /**
  *
- * @author Ivan Gil
+ * @author Sara
  */
 @Entity
 public class Usuario extends Model{

@@ -11,13 +11,13 @@ public class Users extends CRUD {
 
     @Before
     static void admin() {
-        if (!authenticate("test@test.com", "test")) {
+        if (!authenticate("admin@admin.com", "admin")) {
             User admin = new User();
-            admin.name = "test";
-            admin.email = "test@test.com";
-            admin.password = "test";
+            admin.name = "admin";
+            admin.email = "admin@admin.com";
+            admin.password = "admin";
             admin.save();
-            System.out.println("test");
+            System.out.println("asasds");
         }
     }
 }

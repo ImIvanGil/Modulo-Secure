@@ -7,7 +7,7 @@ package controllers;
 
 /**
  *
- * @author Ivan Gil
+ * @author Saraii
  */
 public class Usuarios extends CRUD{
     
